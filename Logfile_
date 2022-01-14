@@ -1,6 +1,11 @@
 Logfile
 
 Jan 13
-today i uploaded an example file of a p5.js sketch
+-Today i uploaded an example file of a p5.js sketch
 
 Jan 14
+-Today i edited the p5.js sketch file. I made the background orange, the circle randomly change colours, and the position of the circle to follow the user's cursor rather than
+moving randomly. A couple small changes I also made were the canvas size and the circle's size.
+
+Jan 15
+-
