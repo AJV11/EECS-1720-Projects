@@ -1,11 +1,23 @@
 Logfile
 
 Jan 13
--Today i uploaded an example file of a p5.js sketch
+-Today I uploaded an example file of a p5.js sketch.
 
 Jan 14
--Today i edited the p5.js sketch file. I made the background orange, the circle randomly change colours, and the position of the circle to follow the user's cursor rather than
+-Today I edited the p5.js sketch file. I made the background orange, the circle randomly change colours, and the position of the circle to follow the user's cursor rather than
 moving randomly. A couple small changes I also made were the canvas size and the circle's size.
 
 Jan 15
+-Nothing.
+
+Jan 16
+-Nothing.
+
+Jan 17
+-Today I edited the p5.js sketch file even furthur. I made it so that now the background stays black but only refreshes when the mouse is clicked, this allows the user to use
+the screen like a canvas and drag the mouse around to 'paint' circles all over until they click (essentially to restart their drawing). Also, I decided to make the circle shape
+slightly smaller so that it takes more circles to fill up the canvas. And finally, to add more interactivity, the user can select the colour of the circle themself using the 
+keys on their keyboard. So... click 'r' for red, click 'g' for green, click 'b' for blue, and click 'a' for random. 
+
+Jan 18
 -
