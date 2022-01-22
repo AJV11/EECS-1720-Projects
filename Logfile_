@@ -29,4 +29,9 @@ Jan 20
 -Today I joined the EECS 1720 github organization 
 
 Jan 21
--
+-Today I edited the more-extension-demo extension on chrome. I mainly played around with the style.css file... I made each class and id have a different colour. Also, I decided
+to change the font of all the text displayed in the popup from Arial to Times New Roman. Finally, I changed the icon of the extension using the manifest.json file. I removed 
+the default icon images given to us and replaced it with a simple png image of the letter W. 
+
+Jan 22
+-Nothing.
