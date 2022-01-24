@@ -35,3 +35,11 @@ the default icon images given to us and replaced it with a simple png image of t
 
 Jan 22
 -Nothing.
+
+Jan 23
+-Today I started my lab project 1. To do this, I created a manifest.json, popup.html, style.css, popup.js, content.js, and background.js files from scratch. So far, my extension
+is titled 'The Letter X vs The Letter E' and opens a new tab that displays the number of times the letters X and E appeared in recently opened webpages. The point of this is to
+show how infrequent the letter X is used in comparison to the letter E. Also, the css file changes the colour and fonts of all the text. This is a work in progress still...
+
+Jan 24
+-
