@@ -5,6 +5,7 @@
     font-family: cursive;
     font-style: italic;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 #Sub {
@@ -18,9 +19,24 @@
     color: red;
     font-size: 15px;
     font-family: fantasy;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
+}
+
+#name {
+    color: midnightblue;
 }
 
 div {
     color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+body {
+    background-image: url("X.png");
+    background-color: lightyellow;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 175px;
+    height: 200px;
 }
