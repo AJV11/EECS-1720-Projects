@@ -1,0 +1,27 @@
+{
+    "name": "Lab Project 1 - Lens for the Internet",
+    "description": "This extension opens a new tab which displays the total count of the letters 'X' and 'E' in recent webpages",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+        "16": "X.png"
+      },
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+
+    "browser_action": {
+        "default_icon": "X.png",
+        "default_title": "Lab Project 1 - Lens for the Internet"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["tabs"]
+
+}
