@@ -52,4 +52,9 @@ finally able to fix this and so now the extension works properly! The issue was 
 minor changes to the html and css files, such as changing the title name it shows at the top of the tab. This is a work in progress still...but very near finish.
 
 Jan 26
+-Today I continued working on my code for lab project 1. I believe I am just about finished my extension... I edited the background.js file because there were a few variables
+that were declared that I never ended up using. The only thing left to do is to simply clean up and organize the code furthur, and maybe make additional css changes to create
+a more aesthetic extension. However, the technical aspect is finished!
+
+Jan 27
 -
