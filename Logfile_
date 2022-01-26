@@ -47,4 +47,9 @@ colours, background, text fonts/sizes, and more. In addition, I added my name in
 top left hand corner. I also added in an image, almost like a logo, in the top right hand corner of the page(same image as extension icon). This is a work in progress still...
 
 Jan 25
+-Today I continued working on my code for lab project 1. Previously, the number count for the letter X was not working as it would simply just say 'undefined'. However, I was
+finally able to fix this and so now the extension works properly! The issue was located in the content.js file and thus needed some tweaking. Along with this, I made some 
+minor changes to the html and css files, such as changing the title name it shows at the top of the tab. This is a work in progress still...but very near finish.
+
+Jan 26
 -
