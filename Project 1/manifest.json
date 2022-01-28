@@ -4,23 +4,23 @@
     "version": "1.0",
     "manifest_version": 2,
     "icons": {
-        "16": "X.png"
+        "16": "img/X.png"
       },
 
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            "js": ["content.js"]
+            "js": ["js/content.js"]
         }
     ],
 
     "browser_action": {
-        "default_icon": "X.png",
+        "default_icon": "img/X.png",
         "default_title": "Lab Project 1 - Lens for the Internet"
     },
 
     "background": {
-        "scripts": ["background.js"]
+        "scripts": ["js/background.js"]
     },
     "permissions": ["tabs"]
 
