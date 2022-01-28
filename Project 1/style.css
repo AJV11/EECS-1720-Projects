@@ -24,6 +24,7 @@
 
 #name {
     color: midnightblue;
+    font-family: sans-serif;
 }
 
 div {
@@ -33,7 +34,7 @@ div {
 }
 
 body {
-    background-image: url("X.png");
+    background-image: url("img/X.png");
     background-color: lightyellow;
     background-position: right;
     background-repeat: no-repeat;
