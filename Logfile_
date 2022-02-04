@@ -81,4 +81,10 @@ Feb 2
 discord by Mehrnaz. 
 
 Feb 3
+-Today I altered and uploaded the python example sketch created during the lecture. There are a few changes I made with the original code. First, instead of one ellipse in 
+the center of the screen, I created 9 ellipses within 3 rows of 3 columns. Each ellipse has a shorter diameter of rings but each ring is much closer together than before. Also,
+the screen size is now 1200 x 800 and the background colour has been changed to black (from white). Finally, I edited the tone that is played when the mouse is clicked so that
+an even lower pitch frequency is played, this is because the ellipse's look similar to vinyls and so I imagined as if a DJ was spinning them with that low pitch sound. 
+
+Feb 4
 -
