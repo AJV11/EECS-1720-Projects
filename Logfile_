@@ -87,4 +87,11 @@ the screen size is now 1200 x 800 and the background colour has been changed to 
 an even lower pitch frequency is played, this is because the ellipse's look similar to vinyls and so I imagined as if a DJ was spinning them with that low pitch sound. 
 
 Feb 4
+-Today I continued making changes to the python example sketch. I used the lerpColor function for the background colour as well, and only made the outer ring of each circle
+apparent. I also made the pitch much higher than previous. 
+
+Feb 5
+-Nothing.
+
+Feb 6
 -
