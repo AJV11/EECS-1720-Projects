@@ -20,20 +20,23 @@ def setup():
     
 def draw():
     global c1, c2, ch1, ch2
-    background(0)
     stroke(0)
     noFill()
     constantFactor = 1.1
     circleSize = 10
+    b1 = color(random(255), random(255), random(255))
+    b2 = color(random(255), random(255), random(255))
     
     if mousePressed:
-        ch1.set(250, 1, 0, 0)
-        ch2.set(250, 1, 0, 0)
+        ch1.set(1000, 1, 0, 0)
+        ch2.set(1000, 1, 0, 0)
         
         for i in range(0, 30):
             p = lerpColor(c1, c2, 1.0*i/width)
+            b = lerpColor(b1, b2, 1.0*i/width)
+            background(b)
             stroke(p)
-            strokeWeight(circleSize/25.0)
+            strokeWeight(circleSize/10.0)
             
             ellipse(200, 100, circleSize, circleSize)
             ellipse(600, 100, circleSize, circleSize)
@@ -57,5 +60,5 @@ def mousePressed():
     global c1, c2
     c1 = color(random(255), random(255), random(255))
     c2 = color(random(255), random(255), random(255))
-    ch1.set(250, 1, 0, 0)
-    ch2.set(250, 1, 0, 0)
+    ch1.set(1000, 1, 0, 0)
+    ch2.set(1000, 1, 0, 0)
