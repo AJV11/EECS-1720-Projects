@@ -101,4 +101,9 @@ Feb 7
 I made the circles get bigger as you go from top to bottom (through strokeWeight()). Finally, I made the sound an even higher pitch.
 
 Feb 8
+-Today I altered and uploaded the python example sketch created during the lecture. There are a few changes I made with the original code. First, I added sound so that a low
+pitch frequency is played on each mouse click. I also made the diameter of each ring grow much quicker but disappear at a larger size. Along with this, I edited the stroke weight
+of the rings, the colour of the background, and a few more minor adjustments. 
+
+Feb 9
 -
