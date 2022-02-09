@@ -97,7 +97,7 @@ Feb 6
 -Nothing.
 
 Feb 7
--Today I continued making changed to the python example sketch. I changed the colour of the circles so that each row of 3 circles is a different random colour. Along with this,
+-Today I continued making changes to the python example sketch. I changed the colour of the circles so that each row of 3 circles is a different random colour. Along with this,
 I made the circles get bigger as you go from top to bottom (through strokeWeight()). Finally, I made the sound an even higher pitch.
 
 Feb 8
@@ -106,4 +106,4 @@ pitch frequency is played on each mouse click. I also made the diameter of each 
 of the rings, the colour of the background, and a few more minor adjustments. 
 
 Feb 9
--
+-Today I continued making changes to the python example sketch #2.
