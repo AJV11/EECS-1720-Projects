@@ -8,7 +8,7 @@ colour, ch1, ch2 = None, None, None
 
 def setup():
     global numRings, ring, ch1, ch2
-    size(800, 800)
+    size(1000, 800)
     smooth()
     
     for i in range(numRings):
@@ -22,15 +22,17 @@ def setup():
 
 def draw():
     global numRings, ring
-    background(255, 165, 0)
+    time = radians(frameCount)
+    colorMode(HSB)
+    background(255*(.5+.5*cos(time)),255*(.5+.5*cos(time)),255*(.5+.5*cos(time)))
     
     for i in range(numRings):
         ring[i].grow()
         ring[i].display()
         
     if mousePressed:
-        ch1.set(200, 1, 0, 0)
-        ch2.set(200, 1, 0, 0)
+        ch1.set(300, 1, 0, 0)
+        ch2.set(300, 1, 0, 0)
     else:
         ch1.set(0, 1, 0, 0)
         ch2.set(0, 1, 0, 0)
@@ -61,13 +63,13 @@ class Ring(object):
         
     def grow(self):
         if (self.on == True):
-            self.diameter += 7.5
-            if (self.diameter > 600):
+            self.diameter += 10.0
+            if (self.diameter > 800):
                 self.on = False
         
     def display(self):
         if (self.on == True):
             noFill()
-            strokeWeight(15)
+            strokeWeight(5)
             stroke(self.colour)
             ellipse(self.x, self.y, self.diameter, self.diameter)
