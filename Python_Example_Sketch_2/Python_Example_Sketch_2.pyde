@@ -31,8 +31,8 @@ def draw():
         ring[i].display()
         
     if mousePressed:
-        ch1.set(300, 1, 0, 0)
-        ch2.set(300, 1, 0, 0)
+        ch1.set(500, 1, 0, 0)
+        ch2.set(500, 1, 0, 0)
     else:
         ch1.set(0, 1, 0, 0)
         ch2.set(0, 1, 0, 0)
@@ -63,13 +63,14 @@ class Ring(object):
         
     def grow(self):
         if (self.on == True):
-            self.diameter += 10.0
-            if (self.diameter > 800):
+            self.diameter += 15.0
+            if (self.diameter > 1000):
                 self.on = False
         
     def display(self):
         if (self.on == True):
             noFill()
-            strokeWeight(5)
+            strokeWeight(50)
             stroke(self.colour)
-            ellipse(self.x, self.y, self.diameter, self.diameter)
+            rectMode(CENTER)
+            rect(self.x, self.y, self.diameter, self.diameter)
