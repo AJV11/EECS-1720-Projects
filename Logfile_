@@ -142,4 +142,10 @@ Feb 19
 -Nothing.
 
 Feb 20
+-Today I made good progress on my lab project 2. I set up a bot.py and env.ENV files to connect to my discord bot API token. I also created a new server where I connected my bot
+to as a way to test it out. I have successfully linked my python code to my bot, named myBot, and tested out some bot commands. As of now, my bot sends a private DM to a user 
+when they join the server, and also listens to a few word commands using the prefixes !, ., and ?. The responses the bot gives are temporary right now as this is still a work
+in progress...
+
+Feb 21
 -
