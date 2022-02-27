@@ -63,14 +63,16 @@ class Ring(object):
         
     def grow(self):
         if (self.on == True):
-            self.diameter += 15.0
-            if (self.diameter > 1000):
+            self.diameter += 30.0
+            if (self.diameter > 1500):
                 self.on = False
         
     def display(self):
         if (self.on == True):
-            noFill()
-            strokeWeight(50)
+            fill(random(255), random(255), random(255))
+            strokeWeight(100)
             stroke(self.colour)
             rectMode(CENTER)
             rect(self.x, self.y, self.diameter, self.diameter)
+            ellipseMode(CENTER)
+            ellipse(self.x, self.y, self.diameter - 20, self.diameter - 20)
